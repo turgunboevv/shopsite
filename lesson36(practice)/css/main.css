@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+header nav .container {
+  display: flex;
+  align-items: center;
+  padding: 30px 0px;
+  justify-content: space-between;
+  max-width: 1350px;
+}
+header nav .container .links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+header nav .container .links li a {
+  text-decoration: none;
+  color: black;
+}
+header nav .container .links li a:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+header nav .container .btn .button {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  background-color: black;
+}
+header nav .container .btn .button:hover {
+  background-color: rgb(92, 84, 84);
+  color: black;
+  transition: all 0.3s ease;
+}
+header nav .container .btn img {
+  display: none;
+}
+header .hero .container {
+  padding: 70px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .hero .container .hero_info {
+  width: 531px;
+}
+header .hero .container .hero_info h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+header .hero .container .hero_info h1:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+header .hero .container .hero_info p {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+header .hero .container .hero_info p:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+header .hero .container .hero_info .retsept {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header .hero .container .hero_info .retsept button {
+  padding: 14px 34px;
+  border: none;
+  border-radius: 20px;
+  background-color: yellow;
+}
+header .hero .container .hero_info .retsept button:hover {
+  color: yellow;
+  background-color: black;
+  transition: all 0.3s ease;
+}
+header .hero .container .hero_info .retsept h4 {
+  font-size: 16px;
+  font-weight: 300;
+  width: 346px;
+}
+header .hero .container .hero_info .retsept h4:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+
+main .sec1 {
+  background-color: #F3F3F3;
+}
+main .sec1 .container .cards {
+  padding-top: 50px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+main .sec1 .container .cards .card p {
+  width: 360px;
+}
+main .sec1 .container .cards .card .head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+main .sec1 .container .cards .card .head:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+main .sec1 .container .cards .card .head p {
+  font-size: 18px;
+  font-weight: 700;
+}
+main .sec1 .container .cards .card .head p:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+main .sec2 {
+  background-color: black;
+}
+main .sec2 .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 70px 0px;
+}
+main .sec2 .container .sec2_info {
+  color: white;
+  width: 503px;
+}
+main .sec2 .container .sec2_info h1 {
+  margin-bottom: 20px;
+}
+main .sec2 .container .sec2_info h1:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+main .sec2 .container .sec2_info p {
+  margin-bottom: 20px;
+}
+main .sec2 .container .sec2_info p:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+main .sec2 .container .sec2_info ul li {
+  color: white;
+}
+main .sec2 .container .sec2_info ul li a {
+  text-decoration: none;
+  color: white;
+  list-style: white;
+}
+main .sec2 .container .sec2_info ul li a:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+main .sec3 .container {
+  padding-top: 70px;
+}
+main .sec3 .container .block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+main .sec3 .container .block .box {
+  width: 350px;
+  border: 2px solid #F3F3F3;
+  background-color: #F3F3F3;
+  padding: 20px 8px;
+  border-radius: 10px;
+}
+main .sec3 .container .block .box:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
+  transition: all 0.3s ease;
+}
+main .sec3 .container .block .box p {
+  margin-bottom: 60px;
+  height: 100px;
+}
+main .sec3 .container .block .box p img {
+  margin-bottom: 20px;
+}
+main .sec3 .sec4 {
+  background-image: url(../img/cta.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  padding: 150px 0px;
+}
+main .sec3 .sec4 .container {
+  padding-top: 40px;
+}
+main .sec3 .sec4 .container p {
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+main .sec3 .sec4 .container p:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+main .sec3 .sec4 .container h1 {
+  font-size: 40px;
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+main .sec3 .sec4 .container h1:hover {
+  color: red;
+  transition: all 0.3s ease;
+}
+main .sec3 .sec4 .container button {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+}
+main .sec3 .sec4 .container button:hover {
+  background-color: black;
+  color: white;
+  transition: all 0.3s ease;
+}
+main .sec4 {
+  background-image: url(../img/cta.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+main .sec4 .container {
+  text-align: center;
+  padding: 120px 0px;
+}
+main .sec4 .container p {
+  text-align: center;
+  font-weight: 500;
+}
+main .sec4 .container p:hover {
+  color: white;
+  transition: all 0.3s ease;
+}
+main .sec4 .container h1 {
+  width: 600px;
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+main .sec4 .container h1:hover {
+  color: white;
+  transition: all 0.3s ease;
+}
+main .sec4 .container button {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 15px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+main .sec4 .container button:hover {
+  color: white;
+  background-color: black;
+  transition: all 0.3s ease;
+}
+
+footer {
+  background-color: black;
+}
+footer .container {
+  padding: 30px 0px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+footer .container .block {
+  display: flex;
+  gap: 30px;
+}
+footer .container .block .card h3 {
+  margin-bottom: 10px;
+}
+footer .container .subscribe {
+  width: 228px;
+}
+footer .container .subscribe h3 {
+  margin-bottom: 10px;
+}
+footer .container .subscribe .input {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.186);
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+footer .container .subscribe .input input {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+@media (max-width: 467px) {
+  header {
+    padding: 0px 20px;
+  }
+  header nav .container .links {
+    display: none;
+  }
+  header nav .container .btn .button {
+    display: none;
+  }
+  header nav .container .btn img {
+    display: block;
+  }
+  header .hero .container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  header .hero .container .retsept {
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+  }
+  header .hero .container .retsept button {
+    display: block;
+    margin: 0 auto;
+  }
+  header .hero .container .retsept h4 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  }
+  header .hero .container img {
+    width: 400px;
+  }
+  main .sec1 .container {
+    padding: 0px 20px;
+  }
+  main .sec1 .container .cards {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  main .sec1 .container .cards .card {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  main .sec1 .container .cards .card p {
+    width: 100%;
+  }
+  main .sec2 .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+    text-align: center;
+  }
+  main .sec2 .container img {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  main .sec2 .container ul li a {
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+  main .sec3 .container {
+    padding: 20px 20px;
+  }
+  main .sec3 .container .block {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  main .sec3 .container .block .box {
+    height: 360px;
+    display: none;
+  }
+  main .sec3 .container .block .box1 {
+    display: block;
+  }
+  main .sec4 .container {
+    padding: 20px 0px;
+    padding-bottom: 10px;
+  }
+  main .sec4 .container p {
+    margin-bottom: 10px;
+  }
+  main .sec4 .container h1 {
+    font-size: 24px;
+    width: 360px;
+  }
+  footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+  }
+  footer .container h1 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  footer .container .block {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  footer .container .subscribe {
+    text-align: center;
+    margin: 0 auto;
+  }
+  footer .container .subscribe .input {
+    width: 100%;
+  }
+}/*# sourceMappingURL=main.css.map */
